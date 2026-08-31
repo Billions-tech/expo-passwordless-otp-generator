@@ -19,7 +19,7 @@
     "newArchEnabled": true,
     "orientation": "portrait",
     "plugins": [
-  "./node_modules/expo-router/app.plugin.js",
+      "expo-router",
       [
         "expo-splash-screen",
         {
