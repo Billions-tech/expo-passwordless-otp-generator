@@ -32,7 +32,7 @@
       ]
     ],
     "scheme": "campusaccess",
-    "slug": "campus-access-portal",
+    "slug": "campus-access",
     "userInterfaceStyle": "automatic",
     "version": "1.0.0",
     "web": {
@@ -43,8 +43,9 @@
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "57e0b18e-e9f5-4668-9909-2c8d9590edde"
+        "projectId": "2e18b548-605a-4631-bea5-090336f24033"
       }
-    }
+    },
+    "owner": "eksel700s-team"
   }
 }
