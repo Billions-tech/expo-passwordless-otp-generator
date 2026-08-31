@@ -7,9 +7,9 @@
     "development": {
       "developmentClient": true,
       "distribution": "internal",
-      "image": "latest",
       "android": {
-        "buildType": "apk"
+        "buildType": "apk",
+        "image": "latest"
       },
       "env": {
         "EAS_NO_FROZEN_LOCKFILE": "1"
@@ -17,16 +17,16 @@
     },
     "preview": {
       "distribution": "internal",
-      "image": "latest",
       "android": {
-        "buildType": "apk"
+        "buildType": "apk",
+        "image": "latest"
       }
     },
     "production": {
       "autoIncrement": true,
-      "image": "latest",
       "android": {
-        "buildType": "app-bundle"
+        "buildType": "app-bundle",
+        "image": "latest"
       }
     }
   },
