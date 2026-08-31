@@ -11,19 +11,26 @@
         "buildType": "apk"
       },
       "env": {
-        "EAS_NO_FROZEN_LOCKFILE": "1"
+        "EAS_NO_FROZEN_LOCKFILE": "1",
+        "EXPO_GRADLE_VERSION": "8.10.2"
       }
     },
     "preview": {
       "distribution": "internal",
       "android": {
         "buildType": "apk"
+      },
+      "env": {
+        "EXPO_GRADLE_VERSION": "8.10.2"
       }
     },
     "production": {
       "autoIncrement": true,
       "android": {
         "buildType": "app-bundle"
+      },
+      "env": {
+        "EXPO_GRADLE_VERSION": "8.10.2"
       }
     }
   },
