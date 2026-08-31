@@ -10,7 +10,10 @@
       "android": {
         "buildType": "apk"
       },
+            "node": "22.13.0",
+
       "env": {
+        
         "EAS_NO_FROZEN_LOCKFILE": "1"
       }
     },
