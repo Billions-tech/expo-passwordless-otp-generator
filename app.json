@@ -6,7 +6,10 @@
         "backgroundColor": "#ffffff",
         "foregroundImage": "./assets/images/adaptive-icon.png"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "gradleProperties": {
+        "org.gradle.kotlin.dsl.all.compiler.arguments": "-Xskip-metadata-version-check"
+      }
     },
     "experiments": {
       "typedRoutes": true
