@@ -7,9 +7,7 @@
         "foregroundImage": "./assets/images/adaptive-icon.png"
       },
       "edgeToEdgeEnabled": true,
-      "gradleProperties": {
-        "org.gradle.kotlin.dsl.all.compiler.arguments": "-Xskip-metadata-version-check"
-      }
+      "gradleVersion": "8.10.2"
     },
     "experiments": {
       "typedRoutes": true
