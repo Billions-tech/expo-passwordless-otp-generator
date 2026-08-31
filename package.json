@@ -9,7 +9,7 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "lint": "expo lint",
-    "eas-build-pre-install": "yarn config set ignore-engines true && rm -f package-lock.json"
+    "eas-build-pre-install": "yarn config set ignore-engines true && rm -f package-lock.json && mkdir -p android && echo 'org.gradle.kotlin.dsl.all.compiler.arguments=-Xskip-metadata-version-check' >> android/gradle.properties"
   },
   "dependencies": {
     "@expo/vector-icons": "^15.0.2",
@@ -43,8 +43,7 @@
     "react-native-toast-message": "^2.4.0",
     "react-native-url-polyfill": "^2.0.0",
     "react-native-web": "^0.21.2",
-    "react-native-webview": "13.16.1",
-    "react-native-worklets": "0.10.1"
+    "react-native-webview": "13.16.1"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
