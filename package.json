@@ -9,8 +9,7 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "lint": "expo lint",
-    "eas-build-pre-install": "yarn config set ignore-engines true && rm -f package-lock.json",
-    "eas-build-on-success": "bash ./eas-hooks.sh"
+    "eas-build-pre-install": "yarn config set ignore-engines true && rm -f package-lock.json && mkdir -p android/gradle/wrapper && echo 'distributionBase=GRADLE_USER_HOME\ndistributionPath=wrapper/dists\ndistributionUrl=https\\://services.gradle.org/distributions/gradle-8.10.2-all.zip\nzipStoreBase=GRADLE_USER_HOME\nzipStorePath=wrapper/dists' > android/gradle/wrapper/gradle-wrapper.properties"
   },
   "dependencies": {
     "@expo/vector-icons": "^15.0.2",
