@@ -7,22 +7,24 @@
     "development": {
       "developmentClient": true,
       "distribution": "internal",
+      "image": "latest",
       "android": {
         "buildType": "apk"
       },
       "env": {
-        "EAS_NO_FROZEN_LOCKFILE": "1",
-        "GRADLE_OPTS": "-Dorg.gradle.kotlin.dsl.all.compiler.arguments=-Xskip-metadata-version-check"
+        "EAS_NO_FROZEN_LOCKFILE": "1"
       }
     },
     "preview": {
       "distribution": "internal",
+      "image": "latest",
       "android": {
         "buildType": "apk"
       }
     },
     "production": {
       "autoIncrement": true,
+      "image": "latest",
       "android": {
         "buildType": "app-bundle"
       }
