@@ -12,7 +12,9 @@
       },
       "env": {
         "EAS_NO_FROZEN_LOCKFILE": "1",
-        "EXPO_GRADLE_VERSION": "8.10.2"
+        "EXPO_GRADLE_VERSION": "8.10.2",
+        "EXPO_PUBLIC_SUPABASE_URL": "https://oyfilrgjhcagymdizuyn.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "sb_publishable_ceaiqJ6OMeBe1CX8p_D8MA_VbMwyMTe"
       }
     },
     "preview": {
@@ -21,7 +23,9 @@
         "buildType": "apk"
       },
       "env": {
-        "EXPO_GRADLE_VERSION": "8.10.2"
+        "EXPO_GRADLE_VERSION": "8.10.2",
+        "EXPO_PUBLIC_SUPABASE_URL": "https://oyfilrgjhcagymdizuyn.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "sb_publishable_ceaiqJ6OMeBe1CX8p_D8MA_VbMwyMTe"
       }
     },
     "production": {
@@ -30,7 +34,9 @@
         "buildType": "app-bundle"
       },
       "env": {
-        "EXPO_GRADLE_VERSION": "8.10.2"
+        "EXPO_GRADLE_VERSION": "8.10.2",
+        "EXPO_PUBLIC_SUPABASE_URL": "https://oyfilrgjhcagymdizuyn.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "sb_publishable_ceaiqJ6OMeBe1CX8p_D8MA_VbMwyMTe"
       }
     }
   },
