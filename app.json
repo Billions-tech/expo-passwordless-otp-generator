@@ -7,7 +7,11 @@
         "foregroundImage": "./assets/images/adaptive-icon.png"
       },
       "edgeToEdgeEnabled": true,
-      "gradleVersion": "8.10.2"
+      "gradleVersion": "8.10.2",
+      "permissions": [
+        "INTERNET",
+        "ACCESS_NETWORK_STATE"
+      ]
     },
     "experiments": {
       "typedRoutes": true
@@ -29,10 +33,11 @@
           "imageWidth": 200,
           "resizeMode": "contain"
         }
-      ]
+      ],
+      "expo-image"
     ],
     "scheme": "campusaccess",
-    "slug": "campus-access",
+    "slug": "campus-access-portal",
     "userInterfaceStyle": "automatic",
     "version": "1.0.0",
     "web": {
@@ -44,7 +49,9 @@
       "router": {},
       "eas": {
         "projectId": "2e18b548-605a-4631-bea5-090336f24033"
-      }
+      },
+      "EXPO_PUBLIC_SUPABASE_URL": "https://oyfilrgjhcagymdizuyn.supabase.co",
+      "EXPO_PUBLIC_SUPABASE_KEY": "sb_publishable_ceaiqJ6OMeBe1CX8p_D8MA_VbMwyMTe"
     },
     "owner": "eksel700s-team"
   }
