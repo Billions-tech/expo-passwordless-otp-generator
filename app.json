@@ -1,20 +1,23 @@
 {
   "expo": {
     "android": {
-      "package": "com.campusaccess.portal",
       "adaptiveIcon": {
         "backgroundColor": "#ffffff",
         "foregroundImage": "./assets/images/adaptive-icon.png"
       },
       "edgeToEdgeEnabled": true,
       "gradleVersion": "8.10.2",
-      "permissions": [
-        "INTERNET",
-        "ACCESS_NETWORK_STATE"
-      ]
+      "package": "com.campusaccess.portal",
+      "permissions": ["INTERNET", "ACCESS_NETWORK_STATE"]
     },
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2e18b548-605a-4631-bea5-090336f24033"
+      },
+      "router": {}
     },
     "icon": "./assets/images/icon.png",
     "ios": {
@@ -23,6 +26,7 @@
     "name": "Campus Access Portal",
     "newArchEnabled": true,
     "orientation": "portrait",
+    "owner": "eksel700s-team",
     "plugins": [
       "expo-router",
       [
@@ -37,22 +41,13 @@
       "expo-image"
     ],
     "scheme": "campusaccess",
-    "slug": "campus-acces",
+    "slug": "campus-access",
     "userInterfaceStyle": "automatic",
     "version": "1.0.0",
     "web": {
       "bundler": "metro",
       "favicon": "./assets/images/favicon.png",
       "output": "single"
-    },
-    "extra": {
-      "router": {},
-      "eas": {
-        "projectId": "2e18b548-605a-4631-bea5-090336f24033"
-      },
-      "EXPO_PUBLIC_SUPABASE_URL": "https://oyfilrgjhcagymdizuyn.supabase.co",
-      "EXPO_PUBLIC_SUPABASE_KEY": "sb_publishable_ceaiqJ6OMeBe1CX8p_D8MA_VbMwyMTe"
-    },
-    "owner": "eksel700s-team"
+    }
   }
 }
